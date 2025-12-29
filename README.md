@@ -5,7 +5,8 @@
 **Disclaimer: This is a proof-of-concept/educational project. The "neutralization" mechanism will be simulated (e.g., laser pointer, foam dart) and must not be used to harm people, animals, or property. I assume no liability for misuse.**
 
 ## Overview
-This project implements the core logic of an autonomous sentry system. Using a radar motion sensor (e.g., RCWL-0516), it continuously monitors a defined area. Upon detecting movement, the system calculates the approximate location, rotates a servo-mounted platform to face the target, and triggers a simulated "engagement" sequence.
+This project implements the core logic of an autonomous sentry system. Using a radar motion sensor, it continuously monitors a defined area. Upon detecting movement, the system calculates the approximate location, rotates a servo-mounted platform to face the target, and triggers a simulated "engagement" sequence.
+### Future implementation will be Module OV7670 (cam from AZDelivery) for computer vision orientation
 
 ## Hardware Components
 *   Arduino Uno / Mega / Nano
