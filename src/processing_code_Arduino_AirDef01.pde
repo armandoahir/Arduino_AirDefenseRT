@@ -2,7 +2,6 @@ import processing.serial.*; // imports library for serial communication
 import java.awt.event.KeyEvent; // imports library for reading the data from the
 import java.io.IOException;
 
-serial port
 Serial myPort;
 String angle="";
 String distance="";
